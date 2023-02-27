@@ -26,8 +26,5 @@ namespace JRDataBase
 
         public int IdUser { get; set; }
 
-        public virtual CategorieBook IdCategorieNavigation { get; set; } = null!;
-
-        public virtual User IdUserNavigation { get; set; } = null!;
     }
 }

@@ -8,6 +8,7 @@ namespace JRDataBase
 {
     public class CategorieBook
     {
-
+        public int IdCategorie { get; set; }
+        public string NameCategorie { get; set; } = null!;
     }
 }
